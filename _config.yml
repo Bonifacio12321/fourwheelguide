@@ -1,0 +1,43 @@
+title: FourwheelGuide - Tips and Tricks for Offroaders
+email: sandywinslow@yahoo.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Here you go! My blog dedicated to Off-road buddies and the main goal of this blog to deliver my best offroading and Jeep upgrading experience to avoid mistake on your rough way!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fourwheelguide.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+repository:
+twitter: sandywinslow
+github: sandywinslow
+
+paginate: 4
+paginate_path: "/:num/"
+
+google_analytics:
+comments: false
+disqus: fourwheelGuide
+
+author: Sandy Winslow
+author_pic:  https://i.ibb.co/kKF7L5m/image-4.jpg
+author_bio: >-
+  Hey there! 😄 My name is Sandy, I'm a 28-year-old Journalist and traveler Redding, California and currently reside in Denver, Colorado. I like to go wild with my friends, any type of activity: trailing, off-roading, camping etc.
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+permalink: /:title
+
+theme_switcher: false
+
+# Allows all pages to be put into `_pages` folder
+# for easier navigation and better SEO.
+collections:
+  pages:
+    output: true
+    permalink: /:title
+
+# Exclude from processing.
+exclude:
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
