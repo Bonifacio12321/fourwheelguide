@@ -3,7 +3,7 @@ email: sandywinslow@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here you go! My blog dedicated to Off-road buddies and the main goal of this blog to deliver my best offroading and Jeep upgrading experience to avoid mistake on your rough way!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fourwheelguide.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fourwheelguide.fleek.co" # the base hostname & protocol for your site, e.g. http://example.com
 repository:
 twitter: sandywinslow
 github: sandywinslow
